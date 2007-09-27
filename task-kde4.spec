@@ -1,36 +1,64 @@
-Name: task-kde4
-Version: 1.0
-Release: %mkrel 1
-Summary: Metapackage for KDE4
-Summary(pt_BR): Metapacote para o KDE4
-Summary(es): Metapackage for the KDE4
-Group: Graphical desktop/KDE
-Packager:       Mandriva Linux KDE Team <kde@mandriva.com>
-License: GPL
-Requires: 	kdebase4-progs 
-Requires:	kdelibs4
-Requires:	kdeutils4
-Requires:	kdeadmin4
-Requires:	kdenetwork4
-Requires:	kdeaddons4
-Requires:	kdevelop4
-Requires:	kdeaccessibility4
-Requires:	kdepimlibs4
-BuildArch: noarch
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
+Name:           task-kde4
+Version:        2008.0
+Release:        %mkrel 1
+Summary:        Metapackage for KDE4
+Group:          Graphical desktop/KDE
+License:        GPL
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
 dependencies for running the K Desktop Environment.
 
-%description -l pt_BR
-Este pacote é um metapacote, ou seja, o seu único propósito é conter
-dependências para permitir executar o K Desktop Environment.
+#---------------------------------------------------------------
+%package        full
+Summary:        Full dependencies needed KDE4
+Group:          Graphical desktop/KDE
+
+Requires:       kdebase4
+Requires:       kdelibs4
+Requires:       kdeutils4
+Requires:       kdeadmin4
+Requires:       kdenetwork4
+Requires:       kdeaddons4
+Requires:       kdevelop4
+Requires:       kdeaccessibility4
+Suggests:       amarok2
+Suggests:       koffice2
+BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}-root
+
+%description   full
+This package is a meta-package, meaning that its purpose is to contain
+the complete dependencies for running the KDE4 desktop ( plus Amarok2,
+Koffice2, ...)
+
+%files
+%defattr(-,root,root-)
+
+#---------------------------------------------------------------------
+
+%package    minimal
+Summary:    Minimal dependencies needed KDE4
+Group:      Graphical desktop/KDE
+
+Requires:   kdebase4-workspace
+Requires:   kde4-dolphin
+Requires:   kde4-nsplugins
+Requires:   kde4-kdepasswd
+Requires:   kde4-konsole
+Requires:   kdeplayground4-plasma
+
+%description minimal
+This package is a meta-package, meaning that its purpose is to contain
+minimal dependencies for running a minimal KDE4 desktop environment.
+
+
+%files minimal
+
+#--------------------------------------------------------------------
 
 %package devel
 Summary: Metapackage for KDE development
-Summary(pt_BR): Metapacote para os pacotes básicos de desenvolvimento do KDE 
-Summary(es): Metapackage for the KDE4 base devel
 Group: Development/KDE and Qt
 Requires: kdelibs4-devel
 
@@ -38,15 +66,7 @@ Requires: kdelibs4-devel
 This package is a meta-package, meaning that its purpose is to contain
 dependencies for installing a KDE development environment.
 
-%description -l pt_BR devel
-Este pacote é um metapacote, ou seja, o seu único propósito é conter
-dependências para instalar um ambiente de desenvolvimento do KDE.
-
-%files
-%defattr(-,root,root-)
-
 %files devel
 %defattr(-,root,root-)
-
 
 
