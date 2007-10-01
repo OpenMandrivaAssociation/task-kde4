@@ -15,13 +15,15 @@ Summary:        Full dependencies needed KDE4
 Group:          Graphical desktop/KDE
 
 Requires:       kdebase4
-Requires:       kdelibs4
+Requires:       kdebase4-workspace
+Requires:       kdeplayground4-plasma
+Requires:       kdelibs4-core
 Requires:       kdeutils4
-Requires:       kdeadmin4
 Requires:       kdenetwork4
-Requires:       kdeaddons4
-Requires:       kdevelop4
 Requires:       kdeaccessibility4
+#Requires:       kdevelop4
+#Requires:       kdeaddons4
+#Requires:       kdeadmin4
 Suggests:       amarok2
 Suggests:       koffice2
 BuildArch:      noarch
@@ -32,7 +34,7 @@ This package is a meta-package, meaning that its purpose is to contain
 the complete dependencies for running the KDE4 desktop ( plus Amarok2,
 Koffice2, ...)
 
-%files
+%files full
 %defattr(-,root,root-)
 
 #---------------------------------------------------------------------
@@ -61,6 +63,9 @@ minimal dependencies for running a minimal KDE4 desktop environment.
 Summary: Metapackage for KDE development
 Group: Development/KDE and Qt
 Requires: kdelibs4-devel
+Requires: kdepimlibs4-devel
+Requires: kdebase4-devel
+Requires: kdebase4-workspace-devel
 
 %description devel
 This package is a meta-package, meaning that its purpose is to contain
