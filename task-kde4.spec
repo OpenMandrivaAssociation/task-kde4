@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        2008.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
@@ -14,6 +14,7 @@ dependencies for running the K Desktop Environment.
 Summary:        Full dependencies needed KDE4
 Group:          Graphical desktop/KDE
 
+Requires:       mandriva-kde4-config
 Requires:       kdebase4
 Requires:       kdebase4-workspace
 Requires:       kdeplayground4-plasma
@@ -43,6 +44,7 @@ Koffice2, ...)
 Summary:    Minimal dependencies needed KDE4
 Group:      Graphical desktop/KDE
 
+Requires:   mandriva-kde4-config
 Requires:   kdebase4-workspace
 Requires:   kde4-dolphin
 Requires:   kde4-nsplugins
@@ -62,6 +64,7 @@ minimal dependencies for running a minimal KDE4 desktop environment.
 %package devel
 Summary: Metapackage for KDE development
 Group: Development/KDE and Qt
+Requires: mandriva-kde4-config
 Requires: kdelibs4-devel
 Requires: kdepimlibs4-devel
 Requires: kdebase4-devel
