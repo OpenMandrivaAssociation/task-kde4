@@ -1,19 +1,9 @@
 Name:           task-kde4
 Version:        2008.0
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
-
-%description
-This package is a meta-package, meaning that its purpose is to contain
-dependencies for running the K Desktop Environment.
-
-#---------------------------------------------------------------
-%package        full
-Summary:        Full dependencies needed KDE4
-Group:          Graphical desktop/KDE
-
 Requires:       mandriva-kde4-config
 Requires:       kdebase4
 Requires:       kdebase4-workspace
@@ -29,13 +19,14 @@ Suggests:       amarok2
 Suggests:       koffice2
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
+Obsoletes:      %{name}-full < 2008.0-3mdv
 
-%description   full
+%description
 This package is a meta-package, meaning that its purpose is to contain
 the complete dependencies for running the KDE4 desktop ( plus Amarok2,
 Koffice2, ...)
 
-%files full
+%files
 %defattr(-,root,root-)
 
 #---------------------------------------------------------------------
