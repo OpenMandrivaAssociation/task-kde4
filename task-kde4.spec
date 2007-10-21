@@ -42,6 +42,7 @@ Requires:   kde4-nsplugins
 Requires:   kde4-kdepasswd
 Requires:   kde4-konsole
 Requires:   kdeplayground4-plasma
+Requires:   xine-phonon
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
