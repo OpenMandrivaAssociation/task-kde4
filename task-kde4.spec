@@ -1,6 +1,7 @@
 Name:           task-kde4
-Version:        2008.0
-Release:        %mkrel 3
+Version:        3.94.0
+Release:        %mkrel 1
+Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
