@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        3.94.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -43,7 +43,7 @@ Requires:   kde4-nsplugins
 Requires:   kde4-kdepasswd
 Requires:   kde4-konsole
 Requires:   kdeplayground4-plasma
-Requires:   xine-phonon
+Requires:   phonon-xine
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
