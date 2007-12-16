@@ -1,21 +1,19 @@
 Name:           task-kde4
-Version:        3.96.1
+Version:        3.97.1
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
-Requires:       mandriva-kde4-config
+Requires:       task-kde4-minimal
 Requires:       kdebase4
-Requires:       kdebase4-workspace
-Requires:       kdeplayground4-plasma
 Requires:       kdelibs4-core
 Requires:       kdeutils4
 Requires:       kdenetwork4
 Requires:       kdeaccessibility4
-#Requires:       kdevelop4
-#Requires:       kdeaddons4
-#Requires:       kdeadmin4
+Requires:       kdevelop4
+Requires:       kdeaddons4
+Requires:       kdeadmin4
 Suggests:       amarok2
 Suggests:       koffice2
 BuildArch:      noarch
