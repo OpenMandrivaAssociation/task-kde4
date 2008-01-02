@@ -17,6 +17,7 @@ Requires:       kdeadmin4
 Suggests:       amarok2
 Suggests:       koffice2
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
 
 %description
