@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.0.0
-Release:        %mkrel 2
+Release:        %mkrel 3
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -39,7 +39,7 @@ Requires:   kde4-dolphin
 Requires:   kde4-nsplugins
 Requires:   kde4-kdepasswd
 Requires:   kde4-konsole
-Requires:   kdeplayground4-plasma
+Requires:   extragear-plasma
 Requires:   phonon-xine
 
 %description minimal
