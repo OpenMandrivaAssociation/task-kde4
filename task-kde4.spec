@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.0.0
-Release:        %mkrel 5
+Release:        %mkrel 6
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -61,6 +61,7 @@ Requires: kdebase4-devel
 Requires: kdebase4-workspace-devel
 Requires: kdesdk4-scripts
 Requires: gcc-g++
+Requires: oxygen-icon-theme
 
 %description devel
 This package is a meta-package, meaning that its purpose is to contain
