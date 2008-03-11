@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.0.2
-Release:        %mkrel 9
+Release:        %mkrel 10
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -42,6 +42,7 @@ Requires:   kde4-kdepasswd
 Requires:   kde4-konsole
 Requires:   extragear-plasma
 Requires:   phonon-xine
+Requires:   dbus-x11
 Suggests:   task-pulseaudio
 
 %description minimal
