@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.0.2
-Release:        %mkrel 10
+Version:        4.0.3
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -11,7 +11,7 @@ Requires:       kdelibs4-core
 Requires:       kdeutils4
 Requires:       kdenetwork4
 Requires:       kdeaccessibility4
-#Requires:       kdevelop4
+#Requires:      kdevelop4
 Requires:       kdeadmin4
 Suggests:       amarok2
 Suggests:       koffice2
