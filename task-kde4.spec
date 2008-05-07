@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.0.69
+Version:        4.0.73
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -11,10 +11,10 @@ Requires:       kdelibs4-core
 Requires:       kdeutils4
 Requires:       kdenetwork4
 Requires:       kdeaccessibility4
-#Requires:      kdevelop4
+Requires:       kdevelop4
 Requires:       kdeadmin4
-Suggests:       amarok2
-Suggests:       koffice2
+Suggests:       amarok
+Suggests:       koffice
 Suggests:       playground-nepomuk-kde
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
@@ -36,10 +36,10 @@ Group:      Graphical desktop/KDE
 
 Requires:   mandriva-kde4-config
 Requires:   kdebase4-workspace
-Requires:   kde4-dolphin
+Requires:   dolphin
 Requires:   kde4-nsplugins
-Requires:   kde4-kdepasswd
-Requires:   kde4-konsole
+Requires:   kdepasswd
+Requires:   konsole
 Requires:   extragear-plasma
 Requires:   phonon-xine
 Requires:   dbus-x11
