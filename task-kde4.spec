@@ -1,19 +1,21 @@
 Name:           task-kde4
-Version:        4.0.73
-Release:        %mkrel 2
+Version:        4.0.82
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
 Requires:       task-kde4-minimal
-Requires:       kdebase4
-Requires:       kdelibs4-core
 Requires:       kdeutils4
 Requires:       kdenetwork4
+Requires:       kdepim4
 Requires:       kdeaccessibility4
+Requires:       kdegraphics4
+Requires:       kdegames4
+Requires:       kdeutils4
 Requires:       kdeadmin4
+Requires:       kdepplasma4
 Suggests:       amarok
-Suggests:       koffice
 Suggests:       playground-nepomuk-kde
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
@@ -34,14 +36,15 @@ Summary:    Minimal dependencies needed KDE4
 Group:      Graphical desktop/KDE
 
 Requires:   mandriva-kde4-config
+Requires:   kdebase4-runtime
 Requires:   kdebase4-workspace
 Requires:   dolphin
 Requires:   kde4-nsplugins
 Requires:   kdepasswd
 Requires:   konsole
-Requires:   extragear-plasma
-Requires:   phonon-xine
 Requires:   dbus-x11
+Requires:   oxygen-icon-theme
+Requires:   qt4-qtdbus
 Suggests:   task-pulseaudio
 
 %description minimal
@@ -56,14 +59,14 @@ minimal dependencies for running a minimal KDE4 desktop environment.
 %package devel
 Summary: Metapackage for KDE development
 Group: Development/KDE and Qt
+Requires: task-kde4
 Requires: mandriva-kde4-config
 Requires: kdelibs4-devel
 Requires: kdepimlibs4-devel
 Requires: kdebase4-devel
 Requires: kdebase4-workspace-devel
 Requires: kdesdk4-scripts
-Requires: gcc-c++
-Requires: oxygen-icon-theme
+Requires: task-c++-devel
 
 %description devel
 This package is a meta-package, meaning that its purpose is to contain
