@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.0.82
-Release:        %mkrel 2
+Version:        4.0.83
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -35,7 +35,7 @@ Koffice2, ...)
 Summary:    Minimal dependencies needed KDE4
 Group:      Graphical desktop/KDE
 
-Requires:   mandriva-kde4-config
+Requires:   kde4-config-file
 Requires:   kdebase4-runtime
 Requires:   kdebase4-workspace
 Requires:   dolphin
@@ -45,6 +45,8 @@ Requires:   konsole
 Requires:   dbus-x11
 Requires:   oxygen-icon-theme
 Requires:   qt4-qtdbus
+Requires:   plasma-applet-folderview
+Requires:   plasma-desktoptheme-aya
 Suggests:   task-pulseaudio
 
 %description minimal
@@ -60,7 +62,7 @@ minimal dependencies for running a minimal KDE4 desktop environment.
 Summary: Metapackage for KDE development
 Group: Development/KDE and Qt
 Requires: task-kde4
-Requires: mandriva-kde4-config
+Requires: kde4-config-config-file
 Requires: kdelibs4-devel
 Requires: kdepimlibs4-devel
 Requires: kdebase4-devel
