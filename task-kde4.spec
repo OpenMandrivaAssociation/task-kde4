@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.0.83
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -62,7 +62,7 @@ minimal dependencies for running a minimal KDE4 desktop environment.
 Summary: Metapackage for KDE development
 Group: Development/KDE and Qt
 Requires: task-kde4
-Requires: kde4-config-config-file
+Requires: kde4-config-file
 Requires: kdelibs4-devel
 Requires: kdepimlibs4-devel
 Requires: kdebase4-devel
