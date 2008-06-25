@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.0.83
-Release:        %mkrel 2
+Release:        %mkrel 3
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -16,7 +16,6 @@ Requires:       kdeutils4
 Requires:       kdeadmin4
 Requires:       kdeplasma4
 Suggests:       amarok
-Suggests:       playground-nepomuk-kde
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
