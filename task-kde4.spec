@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.0.83
-Release:        %mkrel 5
+Release:        %mkrel 6
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -50,6 +50,7 @@ Requires:   dolphin
 Requires:   kde4-nsplugins
 Requires:   kdepasswd
 Requires:   konsole
+Requires:   kmix
 Requires:   dbus-x11
 Requires:   oxygen-icon-theme
 Requires:   qt4-qtdbus
