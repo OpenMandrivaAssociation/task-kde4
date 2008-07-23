@@ -47,6 +47,7 @@ Requires:   kde4-config-file
 Requires:   kdebase4-runtime
 Requires:   kdebase4-workspace
 Requires:   dolphin
+Requires:   ark
 Requires:   kde4-nsplugins
 Requires:   kdepasswd
 Requires:   konsole
