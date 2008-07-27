@@ -21,7 +21,7 @@ Requires:       kdenetwork4
 Requires:       kdepim4
 Requires:       kdeaccessibility4
 Requires:       kdegraphics4
-Requires:       kdeadmin4
+#Requires:       kdeadmin4
 Requires:       kdeplasma4
 Suggests:       amarok
 Suggests:       kdegames4
