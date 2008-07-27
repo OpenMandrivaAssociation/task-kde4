@@ -21,7 +21,10 @@ Requires:       kdenetwork4
 Requires:       kdepim4
 Requires:       kdeaccessibility4
 Requires:       kdegraphics4
-#Requires:       kdeadmin4
+Requires:       kcron
+# Need to be fixed with tcb before enabling it
+#Requires: kuser
+Requires:       knetworkconf
 Requires:       kdeplasma4
 Suggests:       amarok
 Suggests:       kdegames4
