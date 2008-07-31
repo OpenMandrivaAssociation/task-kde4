@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.1.0
-Release:        %mkrel 7
+Release:        %mkrel 8
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -60,6 +60,7 @@ Requires:   oxygen-icon-theme
 Requires:   qt4-qtdbus
 Requires:   plasma-applet-folderview
 Requires:   plasma-desktoptheme-aya
+Requires:   konqueror
 Suggests:   task-pulseaudio
 
 %description minimal
