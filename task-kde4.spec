@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.1.0
-Release:        %mkrel 9
+Release:        %mkrel 10
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -27,6 +27,7 @@ Requires:       kcron
 Requires:       knetworkconf
 Requires:       kdeplasma4
 Requires:	mandriva-galaxy-data
+Requires:	kwrite
 Suggests:       amarok
 Suggests:       kdegames4
 BuildArch:      noarch
