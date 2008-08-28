@@ -1,19 +1,17 @@
 Name:           task-kde4
 Version:        4.1.0
-Release:        %mkrel 10
+Release:        %mkrel 11
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
 Requires:       task-kde4-minimal
-# Do not require the whole kdeutils4 because we do not want superkaramba to be installed by default
+# Do not require the whole kdeutils4 because we do not want superkaramba, kgpg, kcron and kdessh to be installed by default
 #Requires:       kdeutils4
 Requires:       kcalc
 Requires:       kcharselect
-Requires:       kdessh
 Requires:       kdf
 Requires:       kfloppy
-Requires:       kgpg
 Requires:       ktimer
 Requires:       kwallet
 Requires:       sweeper
