@@ -66,6 +66,7 @@ Requires:   plasma-applet-showdesktop
 Requires:   konqueror
 Requires:   phonon-gstreamer
 Requires:   kscd
+Requires:   dragonplayer
 Suggests:   task-pulseaudio
 
 %description minimal
