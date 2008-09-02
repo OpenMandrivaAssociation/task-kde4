@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.1.0
-Release:        %mkrel 12
+Version:        4.1.1
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -16,6 +16,7 @@ Requires:       ktimer
 Requires:       kwallet
 Requires:       sweeper
 Requires:       kdenetwork4
+Suggests:       pinentry-qt
 Requires:       kdepim4
 Requires:       kdeaccessibility4
 Requires:       kdegraphics4
