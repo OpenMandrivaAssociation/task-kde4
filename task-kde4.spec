@@ -24,8 +24,8 @@ Requires:       kcron
 #Requires: kuser
 Requires:       knetworkconf
 Requires:       kdeplasma4
-Requires:	mandriva-galaxy-data
-Requires:	kwrite
+Requires:       mandriva-galaxy-data
+Requires:       kwrite
 Suggests:       amarok
 Suggests:       kdegames4
 BuildArch:      noarch
