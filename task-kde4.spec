@@ -65,6 +65,7 @@ Requires:   plasma-desktoptheme-aya
 Requires:   plasma-applet-showdesktop
 Requires:   konqueror
 Requires:   phonon-gstreamer
+Requires:   kscd
 Suggests:   task-pulseaudio
 
 %description minimal
