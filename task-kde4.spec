@@ -61,6 +61,7 @@ Requires:   oxygen-icon-theme
 Requires:   qt4-qtdbus
 Requires:   plasma-applet-folderview
 Requires:   plasma-desktoptheme-aya
+Requires:   plasma-applet-showdesktop
 Requires:   konqueror
 Requires:   phonon-gstreamer
 Suggests:   task-pulseaudio
