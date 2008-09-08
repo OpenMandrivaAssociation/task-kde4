@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.1.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -48,6 +48,7 @@ Summary:    Minimal dependencies needed KDE4
 Group:      Graphical desktop/KDE
 
 Requires:   kde4-config-file
+Requires:   kdm
 Requires:   kdebase4-runtime
 Requires:   kdebase4-workspace
 Requires:   gwenview
