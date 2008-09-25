@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.1.1
-Release:        %mkrel 3
+Version:        4.1.2
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -70,6 +70,7 @@ Requires:   phonon-gstreamer
 Requires:   kscd
 Requires:   dragonplayer
 Suggests:   task-pulseaudio
+Suggests:   preload
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
