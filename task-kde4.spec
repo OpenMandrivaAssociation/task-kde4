@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.1.2
-Release:        %mkrel 2
+Release:        %mkrel 3
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -72,6 +72,8 @@ Requires:   dragonplayer
 Requires:   kdeartwork4-kscreensaver
 Suggests:   task-pulseaudio
 Suggests:   preload
+Suggests:   readahead
+Requires:   xsettings-kde
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
