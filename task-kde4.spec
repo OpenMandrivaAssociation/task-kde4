@@ -8,23 +8,23 @@ License:        GPL
 Requires:       task-kde4-minimal
 # Do not require the whole kdeutils4 because we do not want superkaramba, kgpg, kcron and kdessh to be installed by default
 #Requires:       kdeutils4
-Requires:       kcalc
-Requires:       kcharselect
-Requires:       kdf
-Requires:       kfloppy
-Requires:       ktimer
-Requires:       kwallet
-Requires:       sweeper
-Requires:       kdenetwork4
+Suggests:       kcalc
+Suggests:       kcharselect
+Suggests:       kdf
+Suggests:       kfloppy
+Suggests:       ktimer
+Suggests:       kwallet
+Suggests:       sweeper
+Suggests:       kdenetwork4
 Suggests:       pinentry-qt
-Requires:       kdepim4
-Requires:       kdeaccessibility4
-Requires:       kdegraphics4
-Requires:       kcron
+Suggests:       kdepim4
+Suggests:       kdeaccessibility4
+Suggests:       kdegraphics4
+Suggests:       kcron
 # Need to be fixed with tcb before enabling it
 #Requires: kuser
-Requires:       knetworkconf
-Requires:       kdeplasma4
+Suggests:       knetworkconf
+Suggests:       kdeplasma-addons
 Suggests:       mandriva-galaxy-data
 Requires:       kwrite
 Suggests:       amarok
