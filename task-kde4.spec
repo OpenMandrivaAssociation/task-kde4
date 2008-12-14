@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.1.70
+Version:        4.1.85
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -71,10 +71,11 @@ Requires:   phonon-gstreamer
 Requires:   kscd
 Requires:   dragonplayer
 Requires:   kdeartwork4-kscreensaver
+Requires:   xsettings-kde
 Suggests:   task-pulseaudio
 Suggests:   preload
 Suggests:   readahead
-Requires:   xsettings-kde
+Suggests:   kde4-audiocd
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
