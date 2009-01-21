@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.1.85
+Version:        4.1.96
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -76,6 +76,7 @@ Suggests:   task-pulseaudio
 Suggests:   preload
 Suggests:   readahead
 Suggests:   kde4-audiocd
+Suggests:   plasma-applet-battery
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
