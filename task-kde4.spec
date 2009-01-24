@@ -56,18 +56,18 @@ Requires:   gwenview
 Requires:   dolphin
 Requires:   ark
 Requires:   kde4-nsplugins
-Requires:   kdepasswd
+Suggests:   kdepasswd
 Requires:   konsole
 Requires:   kmix
 Requires:   dbus-x11
-Requires:   oxygen-icon-theme
+Suggests:   oxygen-icon-theme
 Requires:   qt4-qtdbus
 Requires:   plasma-applet-folderview
 Requires:   plasma-desktoptheme-aya
 Requires:   plasma-applet-showdesktop
 Requires:   konqueror
 Requires:   keditbookmarks
-Requires:   phonon-gstreamer
+Suggests:   phonon-gstreamer
 Requires:   kscd
 Requires:   dragonplayer
 Requires:   kdeartwork4-kscreensaver
@@ -77,6 +77,7 @@ Suggests:   preload
 Suggests:   readahead
 Suggests:   kde4-audiocd
 Suggests:   plasma-applet-battery
+Suggests:   okular
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
