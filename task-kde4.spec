@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.1.96
+Version:        4.2.0
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
