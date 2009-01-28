@@ -1,13 +1,11 @@
 Name:           task-kde4
 Version:        4.2.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
 Requires:       task-kde4-minimal
-# Do not require the whole kdeutils4 because we do not want superkaramba, kgpg, kcron and kdessh to be installed by default
-#Requires:       kdeutils4
 Suggests:       kcalc
 Suggests:       kcharselect
 Suggests:       kdf
@@ -21,8 +19,6 @@ Suggests:       kdepim4
 Suggests:       kdeaccessibility4
 Suggests:       kdegraphics4
 Suggests:       kcron
-# Need to be fixed with tcb before enabling it
-#Requires: kuser
 Suggests:       knetworkconf
 Suggests:       kdeplasma-addons
 Suggests:       mandriva-galaxy-data
@@ -30,6 +26,7 @@ Requires:       kwrite
 Suggests:       amarok
 Suggests:       kdegames4
 Suggests:       digikam
+Suggests:       quassel
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
