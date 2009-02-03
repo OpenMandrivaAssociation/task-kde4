@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.2.0
-Release:        %mkrel 2
+Release:        %mkrel 3
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -30,6 +30,7 @@ Suggests:       quassel
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
+Obsoletes:      task-kde3 < 3.5.10-3
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
@@ -96,6 +97,7 @@ Requires: kdebase4-devel
 Requires: kdebase4-workspace-devel
 Requires: kdesdk4-scripts
 Requires: task-c++-devel
+Obsoletes:      task-kde3-devel < 3.5.10-3
 
 %description devel
 This package is a meta-package, meaning that its purpose is to contain
