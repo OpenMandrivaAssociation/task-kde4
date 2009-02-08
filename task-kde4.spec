@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.2.0
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -46,6 +46,7 @@ Koffice2, ...)
 Summary:    Minimal dependencies needed KDE4
 Group:      Graphical desktop/KDE
 
+Requires:   task-x11
 Requires:   kde4-config-file
 Requires:   kdm
 Requires:   kdebase4-runtime
