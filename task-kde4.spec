@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.2.0
-Release:        %mkrel 4
+Version:        4.2.1
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -34,8 +34,8 @@ Obsoletes:      task-kde3 < 3.5.10-3
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
-the complete dependencies for running the KDE4 desktop ( plus Amarok2,
-Koffice2, ...)
+the complete dependencies for running the KDE4 desktop ( plus amarok,
+koffice, ...)
 
 %files
 %defattr(-,root,root-)
