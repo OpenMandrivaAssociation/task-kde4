@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.2.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -77,6 +77,7 @@ Suggests:   readahead
 Suggests:   kde4-audiocd
 Suggests:   plasma-applet-battery
 Suggests:   okular
+Suggests:   plasma-applet-yawp
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
