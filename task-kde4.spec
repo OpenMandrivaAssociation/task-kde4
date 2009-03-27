@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.2.1
-Release:        %mkrel 2
+Version:        4.2.2
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -66,6 +66,7 @@ Requires:   plasma-desktoptheme-aya
 Requires:   plasma-applet-showdesktop
 Requires:   konqueror
 Requires:   keditbookmarks
+Requires:   kdialog
 Suggests:   phonon-gstreamer
 Requires:   kscd
 Requires:   dragonplayer
