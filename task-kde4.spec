@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.2.2
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -30,7 +30,8 @@ Suggests:       quassel
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
-Obsoletes:      task-kde3 < 3.5.10-3
+Obsoletes:      task-kde < 1:4.2.2
+Provides:       task-kde = %epoch:%version
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
@@ -79,6 +80,8 @@ Suggests:   kde4-audiocd
 Suggests:   plasma-applet-battery
 Suggests:   okular
 Suggests:   plasma-applet-yawp
+Obsoletes:      task-kde-minimal < 1:4.2.2
+Provides:       task-kde-minimal = %epoch:%version
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
@@ -100,7 +103,7 @@ Requires: kdebase4-devel
 Requires: kdebase4-workspace-devel
 Requires: kdesdk4-scripts
 Requires: task-c++-devel
-Obsoletes:      task-kde3-devel < 3.5.10-3
+Obsoletes: task-kde-devel < 1:4.2.2
 
 %description devel
 This package is a meta-package, meaning that its purpose is to contain
