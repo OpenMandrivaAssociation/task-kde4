@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.2.2
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -8,7 +8,6 @@ License:        GPL
 Requires:       task-kde4-minimal
 Suggests:       kcalc
 Suggests:       kcharselect
-Suggests:       kdf
 Suggests:       ktimer
 Suggests:       kwallet
 Suggests:       sweeper
