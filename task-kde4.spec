@@ -9,7 +9,6 @@ Requires:       task-kde4-minimal
 Suggests:       kcalc
 Suggests:       kcharselect
 Suggests:       kdf
-Suggests:       kfloppy
 Suggests:       ktimer
 Suggests:       kwallet
 Suggests:       sweeper
