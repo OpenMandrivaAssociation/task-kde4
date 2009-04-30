@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.2.2
-Release:        %mkrel 5
+Version:        4.2.70
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
