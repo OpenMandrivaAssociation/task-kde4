@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.2.85
+Version:        4.2.86
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -25,6 +25,7 @@ Suggests:       amarok
 Suggests:       kdegames4
 Suggests:       digikam
 Suggests:       quassel
+Suggests:       kio-sysinfo
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
