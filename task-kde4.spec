@@ -78,8 +78,11 @@ Suggests:   kde4-audiocd
 Suggests:   plasma-applet-battery
 Suggests:   okular
 Suggests:   plasma-applet-yawp
-Obsoletes:      task-kde-minimal < 1:4.2.2
-Provides:       task-kde-minimal = %epoch:%version
+Suggests:   firefox 
+Suggests:   drakconf
+Suggests:   mandriva-galaxy
+Obsoletes:  task-kde-minimal < 1:4.2.2
+Provides:   task-kde-minimal = %epoch:%version
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
