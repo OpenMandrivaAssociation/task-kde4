@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.3.0
+Version:        4.3.1
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -81,6 +81,7 @@ Suggests:   plasma-applet-yawp
 Suggests:   firefox 
 Suggests:   drakconf
 Suggests:   mandriva-galaxy
+Suggests:   akonadi-kde
 Obsoletes:  task-kde-minimal < 1:4.2.2
 Provides:   task-kde-minimal = %epoch:%version
 
