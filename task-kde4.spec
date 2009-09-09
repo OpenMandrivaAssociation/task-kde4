@@ -82,6 +82,7 @@ Suggests:   firefox
 Suggests:   drakconf
 Suggests:   mandriva-galaxy
 Suggests:   akonadi-kde
+Suggests:   kontact
 Obsoletes:  task-kde-minimal < 1:4.2.2
 Provides:   task-kde-minimal = %epoch:%version
 
