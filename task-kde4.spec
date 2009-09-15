@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.3.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -10,9 +10,7 @@ Suggests:       kcalc
 Suggests:       kcharselect
 Suggests:       ktimer
 Suggests:       kwallet
-Suggests:       sweeper
 Suggests:       kdenetwork4
-Suggests:       pinentry-qt
 Suggests:       kdepim4
 Suggests:       kdeaccessibility4
 Suggests:       kdegraphics4
@@ -26,6 +24,7 @@ Suggests:       kdegames4
 Suggests:       digikam
 Suggests:       quassel
 Suggests:       kio-sysinfo
+Suggests:       nepomuk-scribo
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
