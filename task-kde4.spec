@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.3.1
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -84,6 +84,7 @@ Suggests:   akonadi-kde
 Suggests:   kontact
 Suggests:   konq-plugins
 Suggests:   mplayerthumb
+Suggests:   kamera
 Obsoletes:  task-kde-minimal < 1:4.2.2
 Provides:   task-kde-minimal = %epoch:%version
 
