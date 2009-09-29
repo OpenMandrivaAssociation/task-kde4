@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.3.1
-Release:        %mkrel 4
+Version:        4.3.2
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -22,7 +22,7 @@ Requires:       kwrite
 Suggests:       amarok
 Suggests:       kdegames4
 Suggests:       digikam
-Suggests:       quassel
+Suggests:       kde4-irc-client
 Suggests:       kio-sysinfo
 Suggests:       nepomuk-scribo
 BuildArch:      noarch
