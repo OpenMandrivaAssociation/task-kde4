@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.3.2
-Release:        %mkrel 2
+Release:        %mkrel 3
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -79,7 +79,7 @@ Suggests:   kde4-audiocd
 Suggests:   plasma-applet-battery
 Suggests:   okular
 Suggests:   plasma-applet-yawp
-Suggests:   firefox 
+Suggests:   firefox-ext-plasmanotify
 Suggests:   drakconf
 Suggests:   mandriva-galaxy
 Suggests:   akonadi-kde
