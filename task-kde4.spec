@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.3.2
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -19,6 +19,7 @@ Suggests:       knetworkconf
 Suggests:       kdeplasma-addons
 Suggests:       mandriva-galaxy-data
 Requires:       kwrite
+Requires:	plasma-wallpaper-timeoftheday
 Suggests:       amarok
 Suggests:       kdegames4
 Suggests:       digikam
