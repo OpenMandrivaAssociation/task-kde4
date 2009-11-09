@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.3.2
-Release:        %mkrel 4
+Version:        4.3.73
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -19,7 +19,7 @@ Suggests:       knetworkconf
 Suggests:       kdeplasma-addons
 Suggests:       mandriva-galaxy-data
 Requires:       kwrite
-Requires:	plasma-wallpaper-timeoftheday
+Requires:	    plasma-wallpaper-timeoftheday
 Suggests:       amarok
 Suggests:       kdegames4
 Suggests:       digikam
@@ -100,17 +100,17 @@ minimal dependencies for running a minimal KDE4 desktop environment.
 
 #--------------------------------------------------------------------
 
-%package devel
-Summary: Metapackage for KDE development
-Group: Development/KDE and Qt
-Requires: task-kde4
-Requires: kde4-config-file
-Requires: kdelibs4-devel
-Requires: kdepimlibs4-devel
-Requires: kdebase4-devel
-Requires: kdebase4-workspace-devel
-Requires: kdesdk4-scripts
-Requires: task-c++-devel
+%package   devel
+Summary:   Metapackage for KDE development
+Group:     Development/KDE and Qt
+Requires:  task-kde4
+Requires:  kde4-config-file
+Requires:  kdelibs4-devel
+Requires:  kdepimlibs4-devel
+Requires:  kdebase4-devel
+Requires:  kdebase4-workspace-devel
+Requires:  kdesdk4-scripts
+Requires:  task-c++-devel
 Obsoletes: task-kde-devel < 1:4.2.2
 Obsoletes: task-kde3-devel < 3.5.10-5
 
