@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.3.73
+Version:        4.3.75
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -80,7 +80,6 @@ Suggests:   kde4-audiocd
 Suggests:   plasma-applet-battery
 Suggests:   okular
 Suggests:   plasma-applet-yawp
-Suggests:   firefox-ext-plasmanotify
 Suggests:   drakconf
 Suggests:   mandriva-galaxy
 Suggests:   akonadi-kde
