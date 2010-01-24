@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.3.75
+Version:        4.3.90
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -87,6 +87,7 @@ Suggests:   kontact
 Suggests:   konq-plugins
 Suggests:   mplayerthumb
 Suggests:   kamera
+Requires:   kmozillahelper
 Obsoletes:  task-kde-minimal < 1:4.2.2
 Provides:   task-kde-minimal = %epoch:%version
 
