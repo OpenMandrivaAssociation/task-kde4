@@ -1,12 +1,11 @@
 Name:           task-kde4
-Version:        4.3.90
+Version:        4.3.98
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
 License:        GPL
 Requires:       task-kde4-minimal
-Suggests:       kcalc
 Suggests:       kcharselect
 Suggests:       ktimer
 Suggests:       kwallet
@@ -17,15 +16,7 @@ Suggests:       kdegraphics4
 Suggests:       kcron
 Suggests:       knetworkconf
 Suggests:       kdeplasma-addons
-Suggests:       mandriva-galaxy-data
-Requires:       kwrite
-Requires:	    plasma-wallpaper-timeoftheday
-Suggests:       amarok
 Suggests:       kdegames4
-Suggests:       digikam
-Suggests:       kde4-irc-client
-Suggests:       kio-sysinfo
-Suggests:       nepomuk-scribo
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
@@ -88,6 +79,16 @@ Suggests:   konq-plugins
 Suggests:   mplayerthumb
 Suggests:   kamera
 Requires:   kmozillahelper
+Suggests:   kcalc
+Requires:   plasma-wallpaper-timeoftheday
+Suggests:   digikam
+Suggests:   kde4-irc-client
+Suggests:   kio-sysinfo
+Suggests:   nepomuk-scribo
+Suggests:   amarok
+Suggests:   mandriva-galaxy-data
+Requires:   kwrite
+Suggests:   amarok
 Obsoletes:  task-kde-minimal < 1:4.2.2
 Provides:   task-kde-minimal = %epoch:%version
 
