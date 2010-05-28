@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.4.3
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -46,6 +46,8 @@ Requires:   kdebase4-runtime
 Requires:   kdebase4-workspace
 Requires:   gwenview
 Requires:   dolphin
+# (nl)  Should it be moved in dolphin ?
+Requires:   kde-odf-thumbnail
 Requires:   ark
 Requires:   kde4-nsplugins
 Suggests:   kdepasswd
