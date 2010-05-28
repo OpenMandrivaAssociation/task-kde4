@@ -46,8 +46,6 @@ Requires:   kdebase4-runtime
 Requires:   kdebase4-workspace
 Requires:   gwenview
 Requires:   dolphin
-# (nl)  Should it be moved in dolphin ?
-Requires:   kde-odf-thumbnail
 Requires:   ark
 Requires:   kde4-nsplugins
 Suggests:   kdepasswd
