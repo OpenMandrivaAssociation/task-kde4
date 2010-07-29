@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.4.3
-Release:        %mkrel 2
+Version:        4.4.95
+Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -17,6 +17,7 @@ Suggests:       kcron
 Suggests:       knetworkconf
 Suggests:       kdeplasma-addons
 Suggests:       kdegames4
+Suggests:       kdeartwork4
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
