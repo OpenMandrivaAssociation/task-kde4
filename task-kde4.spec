@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.5.65
+Version:        4.5.80
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -14,17 +14,14 @@ Suggests:       kdepim4
 Suggests:       kdeaccessibility4
 Suggests:       kdegraphics4
 Suggests:       kcron
-Suggests:       knetworkconf
 Suggests:       kdeplasma-addons
 Suggests:       kdegames4
-Suggests:       kdeartwork4
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
 Obsoletes:      task-kde < 1:4.2.2
 Provides:       task-kde = %epoch:%version
 Obsoletes:      task-kde3 < 3.5.10-5
-
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
