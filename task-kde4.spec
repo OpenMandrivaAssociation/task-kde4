@@ -16,6 +16,7 @@ Suggests:       kdegraphics4
 Suggests:       kcron
 Suggests:       kdeplasma-addons
 Suggests:       kdegames4
+Suggests:       amarok
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
@@ -83,10 +84,8 @@ Suggests:   digikam
 Suggests:   kde4-irc-client
 Suggests:   kio-sysinfo
 Suggests:   nepomuk-scribo
-Suggests:   amarok
 Suggests:   mandriva-galaxy-data
 Requires:   kwrite
-Suggests:   amarok
 Obsoletes:  task-kde-minimal < 1:4.2.2
 Provides:   task-kde-minimal = %epoch:%version
 
