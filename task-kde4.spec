@@ -1,5 +1,5 @@
 Name:           task-kde4
-Version:        4.5.80
+Version:        4.6.0
 Release:        %mkrel 1
 Epoch:          1
 Summary:        Metapackage for KDE4
@@ -16,7 +16,7 @@ Suggests:       kdegraphics4
 Suggests:       kcron
 Suggests:       kdeplasma-addons
 Suggests:       kdegames4
-Suggests:       amarok
+Suggests:       clementine
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Obsoletes:      %{name}-full < 2008.0-3mdv
@@ -86,6 +86,7 @@ Suggests:   kio-sysinfo
 Suggests:   nepomuk-scribo
 Suggests:   mandriva-galaxy-data
 Requires:   kwrite
+Suggests:   gtk-qt-engine
 Obsoletes:  task-kde-minimal < 1:4.2.2
 Provides:   task-kde-minimal = %epoch:%version
 
