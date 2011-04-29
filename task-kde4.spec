@@ -1,6 +1,6 @@
 Name:           task-kde4
-Version:        4.6.0
-Release:        %mkrel 1
+Version:        4.6.2
+Release:        %mkrel 2
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -56,7 +56,6 @@ Requires:   qt4-qtdbus
 Requires:   plasma-applet-folderview
 Requires:   plasma-desktoptheme-aya
 Requires:   plasma-applet-showdesktop
-Requires:   konqueror
 Requires:   keditbookmarks
 Requires:   kdialog
 Suggests:   phonon-gstreamer
