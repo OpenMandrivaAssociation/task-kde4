@@ -1,6 +1,6 @@
 Name:           task-kde4
 Version:        4.6.2
-Release:        %mkrel 2
+Release:        3
 Epoch:          1
 Summary:        Metapackage for KDE4
 Group:          Graphical desktop/KDE
@@ -70,7 +70,7 @@ Suggests:   plasma-applet-battery
 Suggests:   okular
 Suggests:   plasma-applet-yawp
 Suggests:   drakconf
-Suggests:   mandriva-galaxy
+#Suggests:   mandriva-galaxy
 Suggests:   akonadi-kde
 Suggests:   kontact
 Suggests:   konq-plugins
@@ -83,7 +83,7 @@ Suggests:   digikam
 Suggests:   kde4-irc-client
 Suggests:   kio-sysinfo
 Suggests:   nepomuk-scribo
-Suggests:   mandriva-galaxy-data
+#Suggests:   mandriva-galaxy-data
 Requires:   kwrite
 Suggests:   gtk-qt-engine
 Obsoletes:  task-kde-minimal < 1:4.2.2
