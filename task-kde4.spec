@@ -1,6 +1,6 @@
 Name:		task-kde4
-Version:	4.6.2
-Release:	3
+Version:	4.8.97
+Release:	1
 Epoch:		1
 Summary:	Metapackage for KDE4
 Group:		Graphical desktop/KDE
@@ -10,6 +10,7 @@ Suggests:	kcharselect
 Suggests:	ktimer
 Suggests:	kwallet
 Suggests:	kdenetwork4
+Suggests:	knetworkmanager
 Suggests:	kdepim4
 Suggests:	kdeaccessibility4
 Suggests:	kdegraphics4
