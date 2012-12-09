@@ -1,28 +1,37 @@
 Name:		task-kde4
-Version:	4.8.97
+Version:	4.9.4
 Release:	1
 Epoch:		1
 Summary:	Metapackage for KDE4
 Group:		Graphical desktop/KDE
-License:	GPLv2+
+License:	GPL
 Requires:	task-kde4-minimal
+Suggests:	amarok
 Suggests:	kcharselect
-Suggests:	ktimer
-Suggests:	kwallet
+Suggests:	kcron
+Suggests:	kdeaccessibility4
 Suggests:	kdenetwork4
 Suggests:	knetworkmanager
 Suggests:	kdepim4
-Suggests:	kdeaccessibility4
-Suggests:	kdegraphics4
-Suggests:	kcron
 Suggests:	kdeplasma-addons
-Suggests:	kdegames4
-Suggests:	clementine
+Suggests:	klook
+Suggests:	ktimer
+Suggests:	kwallet
+Suggests:	rosapanel
+Suggests:	rosa-launcher
+Suggests:	rosa-media-player
+
+Suggests:	plasma-scriptengine-python
+Suggests:	plasma-scriptengine-ruby
+
+# These are very useful to set with GTK applications style
+Suggests:	gtk-qt-engine
+Suggests:	gtk-engines2
+Suggests:	kde-gtk-config
+
 BuildArch:	noarch
-Obsoletes:	%{name}-full < 2008.0-3mdv
-Obsoletes:	task-kde < 1:4.2.2
-Provides:	task-kde = %{EVRD}
-Obsoletes:	task-kde3 < 3.5.10-5
+Obsoletes:	task-kde < 1:4.6.5
+Provides:	task-kde = %{epoch}:%{version}
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
@@ -33,86 +42,82 @@ koffice, ...)
 
 #---------------------------------------------------------------------
 
-%package	minimal
+%package minimal
 Summary:	Minimal dependencies needed KDE4
 Group:		Graphical desktop/KDE
 
+Suggests:	task-pulseaudio
 Requires:	task-x11
+
+Suggests:	akonadi-kde
+Requires:	ark
+Requires:	dbus-x11
+Requires:	dolphin
+Requires:	gwenview
+
+Suggests:	kamera
+Suggests:	kcalc
+Suggests:	kde4-audiocd
 Requires:	kde4-config-file
-Requires:	kdm
+Requires:	kde4-nsplugins
+Requires:	kdeartwork4-kscreensaver
 Requires:	kdebase4-runtime
 Requires:	kdebase4-workspace
-Requires:	gwenview
-Requires:	dolphin
-Requires:	ark
-Requires:	kde4-nsplugins
 Suggests:	kdepasswd
-Requires:	konsole
-Requires:	kmix
-Requires:	dbus-x11
-Suggests:	oxygen-icon-theme
-Requires:	qt4-qtdbus
-Requires:	plasma-applet-folderview
-Requires:	plasma-desktoptheme-aya
-Requires:	plasma-applet-showdesktop
-Requires:	keditbookmarks
 Requires:	kdialog
-Suggests:	phonon-gstreamer
-Suggests:	dragonplayer
-Requires:	kdeartwork4-kscreensaver
-Requires:	xsettings-kde
-Suggests:	task-pulseaudio
-Suggests:	preload
-Suggests:	readahead
-Suggests:	kde4-audiocd
-Suggests:	plasma-applet-battery
-Suggests:	okular
-Suggests:	plasma-applet-yawp
-Suggests:	drakconf
-#Suggests:	mandriva-galaxy
-Suggests:	akonadi-kde
-Suggests:	kontact
-Suggests:	konq-plugins
-Suggests:	mplayerthumb
-Suggests:	kamera
-Requires:	kmozillahelper
-Suggests:	kcalc
-Requires:	plasma-wallpaper-timeoftheday
-Suggests:	digikam
-Suggests:	kde4-irc-client
+Requires:	kdm
+Requires:	keditbookmarks
 Suggests:	kio-sysinfo
-Suggests:	nepomuk-scribo
-#Suggests:	mandriva-galaxy-data
+Suggests:	kickoff
+Requires:	kmix
+Requires:	kmozillahelper
+Requires:	konsole
 Requires:	kwrite
-Suggests:	gtk-qt-engine
-Obsoletes:	task-kde-minimal < 1:4.2.2
-Provides:	task-kde-minimal = %{EVRD}
 
-%description	minimal
+Suggests:	mandriva-galaxy
+Suggests:	mandriva-galaxy-data
+Suggests:	mplayerthumb
+Suggests:	nepomuk-scribo
+Suggests:	okular
+Suggests:	oxygen-icon-theme
+Suggests:	phonon-gstreamer
+Suggests:	plasma-applet-battery
+Requires:	plasma-applet-showdesktop
+Requires:	plasma-desktoptheme-rosa
+Requires:	plasma-wallpaper-timeoftheday
+Suggests:	preload
+Requires:	qt4-qtdbus
+Suggests:	readahead
+Requires:	rosa-elementary-theme
+Requires:	rosa-icons
+Requires:	xsettings-kde
+
+Obsoletes:	task-kde-minimal < 1:4.2.2
+Provides:	task-kde-minimal = %{epoch}:%{version}
+
+%description minimal
 This package is a meta-package, meaning that its purpose is to contain
 minimal dependencies for running a minimal KDE4 desktop environment.
 
 
-%files		minimal
+%files minimal
 
 #--------------------------------------------------------------------
 
-%package	devel
+%package devel
 Summary:	Metapackage for KDE development
 Group:		Development/KDE and Qt
 Requires:	task-kde4
-Requires:	kde4-config-file
-Requires:	kdelibs4-devel
-Requires:	kdepimlibs4-devel
 Requires:	kdebase4-devel
 Requires:	kdebase4-workspace-devel
+Requires:	kdelibs4-devel
+Requires:	kdepimlibs4-devel
 Requires:	kdesdk4-scripts
 Requires:	task-c++-devel
-Obsoletes:	task-kde-devel < 1:4.2.2
-Obsoletes:	task-kde3-devel < 3.5.10-5
 
-%description	devel
+%description devel
 This package is a meta-package, meaning that its purpose is to contain
 dependencies for installing a KDE development environment.
 
-%files		devel
+%files devel
+
