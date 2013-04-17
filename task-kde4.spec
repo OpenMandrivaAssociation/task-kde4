@@ -4,9 +4,11 @@ Release:	1
 Epoch:		1
 Summary:	Metapackage for KDE4
 Group:		Graphical desktop/KDE
-License:	GPL
+License:	GPLv2
+
 Requires:	task-kde4-minimal
 Suggests:	amarok
+Suggests:	bluedevil
 Suggests:	kcharselect
 Suggests:	kcron
 Suggests:	kdeaccessibility4
@@ -68,7 +70,7 @@ Requires:	kdialog
 Requires:	kdm
 Requires:	keditbookmarks
 Suggests:	kio-sysinfo
-Suggests:	kickoff
+Requires:	kickoff
 Requires:	kmix
 Requires:	kmozillahelper
 Requires:	konsole
