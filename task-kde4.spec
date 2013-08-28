@@ -2,7 +2,7 @@ Summary:	Metapackage for KDE4
 Name:		task-kde4
 Epoch:		1
 Version:	4.10.2
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2
 
@@ -114,7 +114,8 @@ Requires:	kdebase4-devel
 Requires:	kdebase4-workspace-devel
 Requires:	kdelibs4-devel
 Requires:	kdepimlibs4-devel
-Requires:	kdesdk4-scripts
+Requires:	kde-dev-scripts
+Requires:	kde-dev-utils
 Requires:	task-c++-devel
 
 %description devel
