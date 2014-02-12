@@ -20,9 +20,7 @@ Suggests:	klook
 Suggests:	ksnapshot
 Suggests:	ktimer
 Suggests:	kwallet
-Suggests:	rosapanel
-Suggests:	rosa-launcher
-Suggests:	rosa-media-player
+Suggests:	homerun
 Suggests:	plasma-scriptengine-python
 Suggests:	plasma-scriptengine-ruby
 
@@ -85,13 +83,11 @@ Suggests:	oxygen-icon-theme
 Suggests:	phonon-gstreamer
 Suggests:	plasma-applet-battery
 Requires:	plasma-applet-showdesktop
-Requires:	plasma-desktoptheme-rosa
+Requires:	plasma-desktoptheme-slim-glow
 Requires:	plasma-wallpaper-timeoftheday
 Suggests:	preload
 Requires:	qt4-qtdbus
 Suggests:	readahead
-Requires:	rosa-elementary-theme
-Requires:	rosa-icons
 Requires:	xsettings-kde
 
 Obsoletes:	task-kde-minimal < 1:4.2.2
