@@ -48,6 +48,7 @@ Group:		Graphical desktop/KDE
 
 Suggests:	task-pulseaudio
 Requires:	task-x11
+Requires:	distro-kde4-config-common
 
 Suggests:	akonadi-kde
 Requires:	ark
