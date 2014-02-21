@@ -1,8 +1,8 @@
 Summary:	Metapackage for KDE4
 Name:		task-kde4
 Epoch:		1
-Version:	4.12.1
-Release:	2
+Version:	4.12.2
+Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2
 
@@ -48,6 +48,7 @@ Group:		Graphical desktop/KDE
 
 Suggests:	task-pulseaudio
 Requires:	task-x11
+Requires:	distro-kde4-config-common
 
 Suggests:	akonadi-kde
 Requires:	ark
@@ -87,7 +88,6 @@ Requires:	plasma-desktoptheme-slim-glow
 Requires:	plasma-wallpaper-timeoftheday
 Suggests:	preload
 Requires:	qt4-qtdbus
-Suggests:	readahead
 Requires:	xsettings-kde
 
 Obsoletes:	task-kde-minimal < 1:4.2.2
