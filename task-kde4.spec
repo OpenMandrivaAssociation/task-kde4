@@ -2,7 +2,7 @@ Summary:	Metapackage for KDE4
 Name:		task-kde4
 Epoch:		1
 Version:	4.12.3
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2
 
@@ -59,7 +59,7 @@ Requires:	gwenview
 Suggests:	kamera
 Suggests:	kcalc
 Suggests:	kde4-audiocd
-Requires:	kde4-config-file
+Requires:	kde4-config-file >= 2014.0
 Requires:	kde4-nsplugins
 Requires:	kdeartwork4-kscreensaver
 Requires:	kdebase4-runtime
