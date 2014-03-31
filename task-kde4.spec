@@ -76,7 +76,7 @@ Requires:	kwrite
 
 Suggests:	mandriva-galaxy
 Suggests:	mandriva-galaxy-data
-Suggests:	mplayerthumb
+Suggests:	mplayerthumbs
 Suggests:	okular
 Suggests:	oxygen-icon-theme
 Suggests:	phonon-gstreamer
