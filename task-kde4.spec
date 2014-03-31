@@ -11,7 +11,6 @@ Suggests:	amarok
 Suggests:	bluedevil
 Suggests:	kcharselect
 Suggests:	kcron
-Suggests:	kdeaccessibility4
 Suggests:	kdenetwork4
 Suggests:	knetworkmanager
 Suggests:	kdepim4
@@ -78,7 +77,6 @@ Requires:	kwrite
 Suggests:	mandriva-galaxy
 Suggests:	mandriva-galaxy-data
 Suggests:	mplayerthumb
-Suggests:	nepomuk-scribo
 Suggests:	okular
 Suggests:	oxygen-icon-theme
 Suggests:	phonon-gstreamer
