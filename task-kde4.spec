@@ -2,7 +2,7 @@ Summary:	Metapackage for KDE4
 Name:		task-kde4
 Epoch:		1
 Version:	4.12.4
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2
 
@@ -12,7 +12,7 @@ Suggests:	bluedevil
 Suggests:	kcharselect
 Suggests:	kcron
 Suggests:	kdenetwork4
-Suggests:	knetworkmanager
+Suggests:	plasma-nm
 Suggests:	kdepim4
 Suggests:	kdeplasma-addons
 Suggests:	klook
