@@ -1,8 +1,8 @@
 Summary:	Metapackage for KDE4
 Name:		task-kde4
 Epoch:		1
-Version:	4.12.4
-Release:	2
+Version:	4.13.2
+Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2
 
@@ -19,6 +19,7 @@ Suggests:	klook
 Suggests:	ksnapshot
 Suggests:	ktimer
 Suggests:	kwallet
+Requires:	gamin
 Requires:	homerun
 Suggests:	plasma-scriptengine-python
 Suggests:	plasma-scriptengine-ruby
