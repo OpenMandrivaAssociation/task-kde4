@@ -2,7 +2,7 @@ Summary:	Metapackage for KDE4
 Name:		task-kde4
 Epoch:		1
 Version:	4.13.2
-Release:	4
+Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2
 
