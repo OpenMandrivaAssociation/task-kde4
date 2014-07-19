@@ -1,7 +1,7 @@
 Summary:	Metapackage for KDE4
 Name:		task-kde4
 Epoch:		1
-Version:	4.13.2
+Version:	4.13.3
 Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2
@@ -85,7 +85,6 @@ Suggests:	plasma-applet-battery
 Requires:	plasma-applet-showdesktop
 Requires:	plasma-desktoptheme-slim-glow
 Requires:	plasma-wallpaper-timeoftheday
-Suggests:	preload
 Requires:	qt4-qtdbus
 Requires:	xsettings-kde
 
